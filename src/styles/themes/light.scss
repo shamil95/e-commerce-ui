@@ -1,0 +1,12 @@
+@import 'header';
+
+.light-theme {
+    --color-brand-secondary: #128cb0;
+
+    --color-bg-primary: #f8f8f8;
+    --color-bg-secondary: #fff;
+    --color-text-primary: #000;
+    --color-text-secondary: #8d8d8d;
+
+    @include headerLight;
+}

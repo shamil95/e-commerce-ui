@@ -1,0 +1,12 @@
+@import 'header';
+
+.dark-theme {
+    --color-brand-secondary: #2cc1ed;
+
+    --color-bg-primary: #181b22;
+    --color-bg-secondary: #2a2e3a;
+    --color-text-primary: #fff;
+    --color-text-secondary: #8d8d8d;
+
+    @include headerDark;
+}

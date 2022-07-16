@@ -1,0 +1,23 @@
+:root {
+    --color-e50d2e: #e50d2e;
+    --color-a9001a: #a9001a;
+    --color-8d8d8d: #8d8d8d;
+    --color-2a2e3a: #2a2e3a;
+    --color-21252e: #21252e;
+    --color-303643: #303643;
+    --color-fff: #fff;
+    --color-000: #000;
+    --color-ddd: #ddd;
+    --color-bcbcbc: #bcbcbc;
+
+    --color-brand-primary: var(--color-e50d2e);
+
+    --primary-header-height: 50px;
+
+    --width-scrollbar: 0;
+
+    @include md {
+        --primary-header-height: 60px;
+        --width-scrollbar: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+@mixin headerDark {
+    .header {
+        --color-bg-primary: #2d3339;
+    }
+}
+
+@mixin headerLight {
+    .header {
+        --color-bg-primary: #2d3339;
+    }
+}

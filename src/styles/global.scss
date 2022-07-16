@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--color-bg-primary);
+}
+
+.scrollbar-root {
+    overflow: scroll;
+    position: absolute;
+    top: -100px;
+    width: 100%;
+}
+
+.blur {
+    & > div:not(.modal-root) {
+        filter: blur(4px);
+    }
+}
+
+.notification-root {
+    position: fixed;
+    z-index: 100;
+
+    &.topLeft {
+        left: 20px;
+        top: 20px;
+    }
+
+    &.topRight {
+        right: 20px;
+        top: 20px;
+    }
+
+    &.bottomLeft {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    &.bottomRight {
+        bottom: 20px;
+        right: 20px;
+    }
+}
